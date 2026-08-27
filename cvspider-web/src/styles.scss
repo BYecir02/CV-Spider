@@ -1,0 +1,41 @@
+:root {
+  // Fonds
+  --bg-app: #080d19;
+  --bg-sidebar: #090f1c;
+
+  // Surfaces
+  --surface-1: #101727;
+  --surface-2: #131b2c;
+  --surface-hover: #182033;
+
+  // Bordures
+  --border: #252d40;
+  --border-subtle: #1c2435;
+
+  // Textes
+  --text-primary: #f4f4f7;
+  --text-secondary: #b0b3bf;
+  --text-muted: #747b8d;
+
+  // CVSpider
+  --accent: #ff334f;
+  --accent-hover: #ff405c;
+  --accent-soft: rgba(255, 51, 79, 0.12);
+  --accent-border: rgba(255, 51, 79, 0.55);
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+
+  background: var(--bg-app);
+  color: var(--text-primary);
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
